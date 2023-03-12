@@ -1,0 +1,151 @@
+:root {
+  /* Colors */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+
+  /* Font sizes  */
+  --font-size-400: 2rem;
+  --font-size-300: 0.875rem;
+  --font-size-200: 0.875rem;
+  --font-size-100: 0.8125rem;
+
+  /* Spacing */
+  --flow-space: 1.25rem;
+}
+
+@media (min-width: 48em) {
+  :root {
+    --font-size-300: 1rem;
+  }
+}
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  background-color: var(--cream);
+  min-height: 100vh;
+  line-height: 1.5;
+  display: grid;
+  place-content: center;
+}
+
+/* Utility */
+.flow > * + * {
+  --flow-space: 1.75rem;
+
+  margin-top: var(--flow-space);
+}
+
+/* Styling */
+.card-section {
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 42rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+@media (min-width: 36em) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card__body {
+  padding: 2.25rem 1.75rem;
+  display: grid;
+}
+
+.card__title {
+  font-size: var(--font-size-400);
+  font-family: var(--font-fraunces);
+}
+
+.card__sub-title {
+  font-size: var(--font-size-200);
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+}
+
+.card__description {
+  font-size: var(--font-size-300);
+  color: var(--dark-grayish-blue);
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__prices {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__current-price {
+  font-size: var(--font-size-400);
+  font-weight: 7800;
+  font-family: var(--font-fraunces);
+  color: var(--dark-cyan);
+}
+
+.card__old-price {
+  color: var(--dark-grayish-blue);
+}
+
+.card__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.card__btn-icon {
+  margin-right: 0.6125rem;
+}
