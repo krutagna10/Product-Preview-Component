@@ -16,9 +16,6 @@
   --font-size-300: 0.875rem;
   --font-size-200: 0.875rem;
   --font-size-100: 0.8125rem;
-
-  /* Spacing */
-  --flow-space: clamp(1rem, 0.5rem + 4vw, 1.75rem);
 }
 
 @media (min-width: 48em) {
@@ -85,11 +82,6 @@ body {
   border: 0 !important;
 }
 
-/* Utility */
-.flow > * + * {
-  margin-top: var(--flow-space);
-}
-
 /* Styling */
 .card-section {
   padding: 1rem;
@@ -114,6 +106,7 @@ body {
   padding-block: clamp(1.25rem, 0.5rem + 4vw, 2.25rem);
   padding-inline: clamp(1rem, 0.5rem + 2.5vw, 1.75rem);
   display: grid;
+  gap: clamp(1rem, 0.5rem + 4vw, 1.75rem);
 }
 
 .card__title {
