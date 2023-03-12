@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +56,7 @@
       <workItem from="1674968643695" duration="14000" />
       <workItem from="1678562704928" duration="481000" />
       <workItem from="1678590661292" duration="2454000" />
-      <workItem from="1678618920175" duration="1104000" />
+      <workItem from="1678618920175" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1666532842223</created>

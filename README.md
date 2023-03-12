@@ -6,7 +6,7 @@
 
 ### Links
 
-- Live Site URL: [https://product-preview-component-10.netlify.app/]
+- Live Site URL: [https://product-preview-component-10.vercel.app]
 
 ### Built with
 
