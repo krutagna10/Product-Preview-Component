@@ -165,7 +165,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.card__btn[] .card__btn:is(:hover, :focus) {
+.card__btn:is(:hover, :focus) {
   background-color: var(--very-dark-cyan);
 }
 
