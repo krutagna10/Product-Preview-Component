@@ -27,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Coding/Projects/React Projects/advice-generator",
+    "last_opened_file_path": "D:/Coding/Projects/HTML CSS JS Projects/product-preview-component",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +57,7 @@
       <workItem from="1678562704928" duration="481000" />
       <workItem from="1678590661292" duration="2454000" />
       <workItem from="1678618920175" duration="4000000" />
+      <workItem from="1678699650490" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1666532842223</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678622930503</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="final-update">
+      <created>1678699669104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678699669104</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
